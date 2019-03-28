@@ -10,7 +10,7 @@ input {
 	color: whitesmoke;
 }
 
-p.titulos {
+p.h1.titulos {
 	color: red;
 	text-align: center;
 	font-style: Arial;
