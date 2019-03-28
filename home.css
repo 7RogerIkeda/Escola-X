@@ -52,12 +52,28 @@ div.right {
     }
 
 
-#DivLateral{
+#DivLateralLeft{
     position:relative;
     border-width:2px;
     width:200px;
     height: 100px;
     float: left;
+}
+
+#DivLateralCenterRight{
+    position:relative;
+    border-width:2px;
+    width:200px;
+    height: 100px;
+    float: center-right;
+}
+
+#DivLateralRight{
+    position:relative;
+    border-width:2px;
+    width:200px;
+    height: 100px;
+    float: right;
 }
 
 
