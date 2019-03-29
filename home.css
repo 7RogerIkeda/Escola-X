@@ -16,17 +16,50 @@ p.titulos {
 	font-style: Arial;
 }
 
+p.titulos_left {
+    color: red;
+    text-align: left;
+    font-style: Arial;
+}
+
 p.titulos_div{
+    color: gray;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p.text_div{
     color: white;
     text-align: center;
     vertical-align: middle;
 }
 
-p.titulos_footer{
+p.titulos_header_logo{
     color: black;
     text-align: center;
     vertical-align: middle;
-    font-size: 16pt;
+    font-size: 17pt;
+}
+
+p.titulos_footer_nav{
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12pt;
+}
+
+p.titulos_footer_logo{
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20pt;
+}
+
+p.footer_text{
+    color: gray;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10pt;
 }
 
 /*button {
@@ -65,10 +98,13 @@ p.titulos_footer{
 	color:black;
 }
 
+div.footer_logo_container{
+    text-align: center;
+}
 
 div.main_container {
     display: grid;
-    grid-template-columns: 250px 613px 400px;
+    grid-template-columns: 300px 613px 350px;
     grid-template-rows: auto;
 }
 
@@ -77,7 +113,6 @@ div.left {
     grid-column-end: 2;
     grid-row-start: 1
     grid-row-end: 1;
-    background-color: Aqua;
     text-align: center;
 }
 
@@ -86,7 +121,6 @@ div.center {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
-    background-color: Blue;
     text-align: center;
 }
 
@@ -95,7 +129,6 @@ div.right {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
-    background-color: Red;
     text-align: center;
 }
 
@@ -147,8 +180,8 @@ div.icon_right {
 
 div.footer_container {
     display: grid;
-    grid-template-columns: 250px 200px 100px 200px 100px 100px;
-    grid-template-rows: auto;
+    grid-template-columns: 250px 180px 50px 150px 200px 200px;
+    grid-template-rows: 120px;
 }
 
 div.footer_left_left {
@@ -194,6 +227,28 @@ div.footer_center_right {
 div.footer_right {
     grid-column-start: 6;
     grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+div.header_logo_container {
+    display: grid;
+    grid-template-columns: 100px 90px;
+    grid-template-rows: 60px;
+}
+
+div.header_logo_left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    text-align: center;
+}
+
+div.header_logo_right {
+    grid-column-start: 2;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
     text-align: center;
