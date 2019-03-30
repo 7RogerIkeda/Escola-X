@@ -104,7 +104,7 @@ div.footer_logo_container{
 
 div.main_container {
     display: grid;
-    grid-template-columns: 300px 613px 350px;
+    grid-template-columns: 25% 50% 25%;
     grid-template-rows: auto;
 }
 
