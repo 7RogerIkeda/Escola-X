@@ -3,7 +3,7 @@ body {
 }
 
 label {
-	color: whitesmoke;
+    color: whitesmoke;
 }
 
 input {
@@ -251,6 +251,10 @@ div.header_logo_right {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
+    text-align: center;
+}
+
+div.c {
     text-align: center;
 }
 
